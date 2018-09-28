@@ -4,9 +4,16 @@
     <head>
         <title>LOTR: Battle the Orcs</title>
         <link rel="stylesheet" type="text/css" href="styles.css">
-        <script src="logic.js"></script>
+        <script src='logic.js'></script>
     </head>
     <body>
-        <section id='prompts'></section>
+        <button type='button' onclick='prompts();this.style.display="none"'>Welcome to Lord of the Rings: Battle the Orcs. Click here to begin</button>
+        <p id='prompts'></p>
+        <section id='characters'>
+            <div id='Hobbit'onclick='characters("hobbit");this.style.display="none"'>Hobbit</div>
+            <div id='Man' onclick='characters("man")'>Man</div>
+            <div id='Dwarf' onclick='characters("dwarf")'>Dwarf</div>
+            <div id='Elf' onclick='characters("elf")'>Elf</div>
+        </section>
     </body>
 </html>
