@@ -1,0 +1,24 @@
+{
+  "name": "lotr",
+  "version": "1.0.0",
+  "description": "browser based LOTR themed game",
+  "main": "logic.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cSparkle/LOTR.git"
+  },
+  "author": "Cortney Thomas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cSparkle/LOTR/issues"
+  },
+  "homepage": "https://github.com/cSparkle/LOTR#readme",
+  "devDependencies": {
+    "eslint": "^5.6.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  }
+}
